@@ -1,0 +1,124 @@
+//////////////////////////////////////////////// Cores
+$branco: #fff;
+$preto: #000;
+
+$corPrincipal: $preto;
+$corSecundaria: lighten($preto, 50%);
+
+//////////////////////////////////////////////// Animação
+
+//Duplicar a linha abaixo para cada tipo de animação
+@include keyframes(nome_animacao) {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+//////////////////////////////////////////////// Gerais (Incluir todas modificações gerais de atributos)
+
+body{
+	font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+}
+a {
+	color: #B70A1E;
+}
+
+//////////////////////////////////////////////// Modificar bootstrap (Todas modificações relativas a componentes do bootstrap)
+
+
+
+//////////////////////////////////////////////// Menu
+
+
+
+//////////////////////////////////////////////// Cabeçalho
+
+
+
+//////////////////////////////////////////////// Títulos
+
+
+
+//////////////////////////////////////////////// Botões
+
+
+
+//////////////////////////////////////////////// Seções
+
+
+
+//////////////////////////////////////////////// Formulário
+
+
+
+//////////////////////////////////////////////// Rodapé
+
+.bhtec{
+	width: 92px;
+	height: 36px;
+	margin-top: 25px;
+	a{
+		display: block;
+		width: 92px;
+		height: 36px;
+	}
+}
+
+//////////////////////////////////////////////// Lightbox
+
+
+
+//////////////////////////////////////////////// Modal
+
+
+
+//////////////////////////////////////////////// Sprite
+
+
+
+/////////////////////////////////////////// Classes gerais
+
+.bloco{
+	display:block;
+}
+.clear{
+	clear:both;
+	}
+.mb25{
+	margin-bottom:25px;
+}
+.mt25{
+	margin-top:25px;
+}
+.mr25{
+	margin-right: 25px;
+}
+.mt75{
+	margin-top: 75px;
+}
+.mt0{
+	margin-top:0;
+}
+.esconde{
+	display: none;
+}
+
+/////////////////////////////////////////// Media queries
+
+// Especificações para telas maiores que Smartphones
+
+@media screen and (min-width: 768px) {
+	
+} // media 768
+
+// Especificações de telas de desktop
+@media screen and (min-width: 1024px) {
+	
+} //media 1024
+
+// Especificações para telas de desktop muito grandes
+@media screen and (min-width: 1200px) {
+	.container-fluid {
+		max-width: 1200px;
+	}
+} //media 1200

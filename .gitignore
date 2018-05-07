@@ -1,0 +1,9 @@
+*.DS_Store
+*.scssc
+*.pngc
+*.sublime-project
+*.sublime-workspace
+/node_modules
+!/node_modules/gulp
+/bower_components
+/Local

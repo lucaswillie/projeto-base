@@ -1,0 +1,23 @@
+{
+  "name": "start-project",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lucas Willie",
+    "email": "lucaswillie_paula[at]hotmail.com.br"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-open": "^1.0.0"
+  },
+  "devDependencies": {
+    "bower-main": "^0.2.14",
+    "browser-sync": "^2.11.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-prompt": "^0.1.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-watch": "^4.3.5",
+    "imagemin-gifsicle": "^4.2.0",
+    "imagemin-jpegtran": "^4.3.2",
+    "imagemin-optipng": "^4.3.0"
+  }
+}

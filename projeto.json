@@ -1,0 +1,24 @@
+{
+	"title": "projeto base",
+	"version": "0.0.0",
+	"timestamp": "",
+	"user": "",
+	"description": "base",
+	"http_path": "/",
+	"css_dir": "Local/Repositorio/dist/css",
+	"sass_dir": "assets/Repositorio/sass",
+	"fonts_dir": "Local/Repositorio/dist/fonts",
+	"fonts_assets": "bower_components/bootstrap-sass/assets/fonts",
+	"javascripts_dir": "assets/Repositorio/js",
+	"images_dir": "Local/Repositorio/dist",
+	"sprite_load_path": "assets/Repositorio",
+	"dist_dir": "Local/Repositorio/dist",
+	"local_dir": "Local",
+	"assets_dir": "assets",
+	"homologacao_dir": "s",
+	"homologacao_url": "s",
+	"author": {
+		"name": "lucas",
+		"email": "n"
+	}
+}
